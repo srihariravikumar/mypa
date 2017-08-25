@@ -122,7 +122,6 @@ class Jasper(object):
 
 if __name__ == "__main__":
 
-
     print("*******************************************************")
     print("*             MyPA - MY Personel Assistant            *")
     print("*         (c) 2017 Yoginth <yoginth@aol.com>          *")
