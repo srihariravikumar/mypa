@@ -6,7 +6,7 @@ import mpd
 from client.mic import Mic
 
 # Standard module stuff
-WORDS = ["MUSIC", "SPOTIFY"]
+WORDS = ["MUSIC", "SPOTIFY", "SONGS"]
 
 
 def handle(text, mic, profile):

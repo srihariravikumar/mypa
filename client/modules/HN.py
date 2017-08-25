@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 from client import app_utils
 from semantic.numbers import NumberService
 
-WORDS = ["HACKER", "NEWS", "YES", "NO", "FIRST", "SECOND", "THIRD"]
+WORDS = ["HACKER", "NEWS", "YES", "NO", "FIRST", "SECOND", "THIRD", "HACKS"]
 
 PRIORITY = 4
 

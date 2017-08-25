@@ -3,7 +3,7 @@ import re
 import facebook
 
 
-WORDS = ["FACEBOOK", "NOTIFICATION"]
+WORDS = ["FACEBOOK", "NOTIFICATION", "FB", "NOTIFYS"]
 
 
 def handle(text, mic, profile):

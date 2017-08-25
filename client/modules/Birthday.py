@@ -4,7 +4,7 @@ import re
 import facebook
 from client.app_utils import getTimezone
 
-WORDS = ["BIRTHDAY"]
+WORDS = ["BIRTHDAY", "BDAY"]
 
 
 def handle(text, mic, profile):
