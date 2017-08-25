@@ -18,7 +18,7 @@ logger = logging.getLogger(__name__)
 
 def check_network_connection(server="www.google.com"):
     """
-    Checks if jasper can connect a network server.
+    Checks if MyPA can connect a network server.
 
     Arguments:
         server -- (optional) the server to connect with (Default:
@@ -147,7 +147,7 @@ def run():
     if loglvl == logging.NOTSET or loglvl > logging.INFO:
         logger.setLevel(logging.INFO)
 
-    logger.info("Starting jasper diagnostic at %s" % time.strftime("%c"))
+    logger.info("Starting MyPA diagnostic at %s" % time.strftime("%c"))
     logger.info("Git revision: %r", get_git_revision())
 
     failed_checks = 0

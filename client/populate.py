@@ -27,10 +27,10 @@ def run():
     simple_request('last_name', 'Last name')
 
     # gmail
-    print("\nJasper uses your Gmail to send notifications. Alternatively, " +
+    print("\nMyPA uses your Gmail to send notifications. Alternatively, " +
           "you can skip this step (or just fill in the email address if you " +
           "want to receive email notifications) and setup a Mailgun " +
-          "account, as at http://jasperproject.github.io/documentation/" +
+          "account, as at https://yoginth.surge.sh/mypa/documentation/" +
           "software/#mailgun.\n")
     simple_request('gmail_address', 'Gmail address')
     profile['gmail_password'] = getpass()
