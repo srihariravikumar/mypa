@@ -17,12 +17,12 @@ If you're still having trouble, the next place to look would be the new **[Googl
 
 MyPA's core developer is [Yoginth](https://yoginth.surge.sh). However, for technical support and other problems, please go through the channels mentioned above.
 
-For a complete list of code contributors, please see [AUTHORS.md](AUTHORS.md).
+For a complete list of code contributors, please see [AUTHORS](AUTHORS.md).
 
 ## License
 
 *Copyright (c) 2017, MyPA. All rights reserved.*
 
-MyPA is covered by the MIT license, a permissive free software license that lets you do anything you want with the source code, as long as you provide back attribution and ["don't hold \[us\] liable"](http://choosealicense.com). For the full license text see the [LICENSE.md](LICENSE.md) file.
+MyPA is covered by the MIT license, a permissive free software license that lets you do anything you want with the source code, as long as you provide back attribution and ["don't hold \[us\] liable"](http://choosealicense.com). For the full license text see the [LICENSE](LICENSE) file.
 
 *Note that this licensing only refers to the MyPA client code (i.e.,  the code on GitHub) and not to the disk image itself (i.e., the code on SourceForge).*
