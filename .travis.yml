@@ -13,10 +13,13 @@ install:
     - "pip install python-coveralls --download-cache $HOME/.pip-cache"
     - "pip install coverage  --download-cache $HOME/.pip-cache"
     - "pip install flake8  --download-cache $HOME/.pip-cache"
+
 before_script:
     - "flake8 mypa.py client tests"
+
 script:
     - "coverage run -m unittest discover"
+
 after_success:
     - "coverage report"
     - "coveralls"
