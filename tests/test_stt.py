@@ -28,7 +28,7 @@ def pocketsphinx_installed():
 class TestSTT(unittest.TestCase):
 
     def setUp(self):
-        self.jasper_clip = jasperpath.data('audio', 'jasper.wav')
+        self.jasper_clip = jasperpath.data('audio', 'mypa.ogg')
         self.time_clip = jasperpath.data('audio', 'time.wav')
 
         self.passive_stt_engine = stt.PocketSphinxSTT.get_passive_instance()
