@@ -131,7 +131,6 @@ class PhonetisaurusG2P(object):
 
 if __name__ == "__main__":
 
-
     import pprint
     import argparse
     parser = argparse.ArgumentParser(description='Phonetisaurus G2P module')

@@ -677,7 +677,6 @@ def get_engines():
 
 if __name__ == '__main__':
 
-
     parser = argparse.ArgumentParser(description='MyPA TTS module')
     parser.add_argument('--debug', action='store_true',
                         help='Show debug messages')
