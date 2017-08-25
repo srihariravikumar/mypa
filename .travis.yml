@@ -14,6 +14,7 @@ install:
     - "sudo apt-get install nano git-core python-dev bison libasound2-dev libportaudio-dev python-pyaudio --yes"
     - "sudo apt-get remove python-pip"
     - "sudo easy_install pip"
+
 before_script:
     - "flake8 mypa.py client tests"
 script:
