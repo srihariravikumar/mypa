@@ -35,7 +35,11 @@ else:
 
 
 class Jasper(object):
+
+
     def __init__(self):
+
+
         self._logger = logging.getLogger(__name__)
 
         # Create config dir if it does not exist yet
@@ -110,6 +114,8 @@ class Jasper(object):
                        stt_engine_class.get_active_instance())
 
     def run(self):
+
+
         if 'first_name' in self.config:
             salutation = ("How can I be of service, %s?"
                           % self.config["first_name"])
@@ -121,6 +127,7 @@ class Jasper(object):
         conversation.handleForever()
 
 if __name__ == "__main__":
+
 
     print("*******************************************************")
     print("*             MyPA - MY Personel Assistant            *")
@@ -149,3 +156,4 @@ if __name__ == "__main__":
         sys.exit(1)
 
     app.run()
+
