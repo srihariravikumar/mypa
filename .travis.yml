@@ -9,11 +9,14 @@ cache:
     - "$HOME/.pip-cache/"
     - "/home/travis/virtualenv/python2.7"
 install:
-    - "apt-get install nano git-core python-dev bison libasound2-dev libportaudio-dev python-pyaudio --yes"
-
+    - "pip install -r client/requirements.txt  --download-cache $HOME/.pip-cache"
+    - "pip install python-coveralls --download-cache $HOME/.pip-cache"
+    - "pip install coverage  --download-cache $HOME/.pip-cache"
+    - "pip install flake8  --download-cache $HOME/.pip-cache"
+before_script:
+    - "flake8 mypa.py client tests"
 script:
     - "coverage run -m unittest discover"
-
 after_success:
     - "coverage report"
     - "coveralls"
