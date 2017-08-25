@@ -27,7 +27,7 @@ def run():
     simple_request('last_name', 'Last name')
 
     # gmail
-    print("\nMyPA uses your Gmail to send notifications. Alternatively, " +
+    print("\MyPA uses your Gmail to send notifications. Alternatively, " +
           "you can skip this step (or just fill in the email address if you " +
           "want to receive email notifications) and setup a Mailgun " +
           "account, as at https://yoginth.surge.sh/mypa/documentation/" +
@@ -143,5 +143,4 @@ def run():
     print("Done.")
 
 if __name__ == "__main__":
-
     run()
