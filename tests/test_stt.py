@@ -29,7 +29,7 @@ class TestSTT(unittest.TestCase):
 
     def setUp(self):
         self.jasper_clip = jasperpath.data('audio', 'mypa.ogg')
-        self.time_clip = jasperpath.data('audio', 'time.wav')
+        self.time_clip = jasperpath.data('audio', 'time.ogg')
 
         self.passive_stt_engine = stt.PocketSphinxSTT.get_passive_instance()
         self.active_stt_engine = stt.PocketSphinxSTT.get_active_instance()
