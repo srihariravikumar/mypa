@@ -131,6 +131,7 @@ if __name__ == "__main__":
     logger = logging.getLogger()
     logger.getChild("client.stt").setLevel(logging.INFO)
 
+
     if args.debug:
         logger.setLevel(logging.DEBUG)
 
