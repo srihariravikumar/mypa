@@ -6,9 +6,9 @@ from client.modules import Life, Joke, Time, Gmail, HN, News, Weather
 
 DEFAULT_PROFILE = {
     'prefers_email': False,
-    'location': 'Cape Town',
-    'timezone': 'US/Eastern',
-    'phone_number': '012344321'
+    'location': 'Cumbum',
+    'timezone': 'India/Kolkata',
+    'phone_number': '+917010851615'
 }
 
 

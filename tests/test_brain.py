@@ -7,9 +7,9 @@ from client import brain, test_mic
 
 DEFAULT_PROFILE = {
     'prefers_email': False,
-    'location': 'Cape Town',
-    'timezone': 'US/Eastern',
-    'phone_number': '012344321'
+    'location': 'Cumbum',
+    'timezone': 'India/Kolkata',
+    'phone_number': '+917010851615'
 }
 
 
