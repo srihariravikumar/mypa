@@ -9,10 +9,11 @@ cache:
     - "$HOME/.pip-cache/"
     - "/home/travis/virtualenv/python2.7"
 install:
-    - "pip install -r client/requirements.txt  --download-cache $HOME/.pip-cache"
-    - "pip install python-coveralls --download-cache $HOME/.pip-cache"
-    - "pip install coverage  --download-cache $HOME/.pip-cache"
-    - "pip install flake8  --download-cache $HOME/.pip-cache"
+    - "sudo apt-get update"
+    - "sudo apt-get upgrade --yes"
+    - "sudo apt-get install nano git-core python-dev bison libasound2-dev libportaudio-dev python-pyaudio --yes"
+    - "sudo apt-get remove python-pip"
+    - "sudo easy_install pip"
 before_script:
     - "flake8 mypa.py client tests"
 script:
