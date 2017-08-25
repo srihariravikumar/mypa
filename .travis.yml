@@ -9,11 +9,11 @@ cache:
     - "$HOME/.pip-cache/"
     - "/home/travis/virtualenv/python2.7"
 install:
-    - "sudo apt-get update"
-    - "sudo apt-get upgrade --yes"
-    - "sudo apt-get install nano git-core python-dev bison libasound2-dev libportaudio-dev python-pyaudio --yes"
-    - "sudo apt-get remove python-pip"
-    - "sudo easy_install pip"
+    - "apt-get update"
+    - "apt-get upgrade --yes"
+    - "apt-get install nano git-core python-dev bison libasound2-dev libportaudio-dev python-pyaudio --yes"
+    - "apt-get remove python-pip"
+    - "easy_install pip"
 
 before_script:
     - "flake8 mypa.py client tests"
