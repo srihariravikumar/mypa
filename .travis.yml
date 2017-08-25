@@ -1,7 +1,10 @@
 env:
     - ARCH=x86
+
 language: python
+
 sudo: false
+
 python:
     - "2.7"
 
