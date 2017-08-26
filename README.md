@@ -1,4 +1,4 @@
-mypa-client
+MyPA (**My Personel Assistant**)
 =============
 
 [![Build Status](https://travis-ci.org/yoginth/mypa.svg?branch=master)](https://travis-ci.org/yoginth/mypa) [![Codacy Badge](https://www.codacy.com/project/badge/3a50e1bc2261419894d76b7e2c1ac694)](https://www.codacy.com/app/yoginth/mypa)
