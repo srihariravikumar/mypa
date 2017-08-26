@@ -30,7 +30,7 @@ def run():
     print("\MyPA uses your Gmail to send notifications. Alternatively, " +
           "you can skip this step (or just fill in the email address if you " +
           "want to receive email notifications) and setup a Mailgun " +
-          "account, as at https://yoginth.surge.sh/mypa/documentation/" +
+          "account, as at https://mypa.yoginth.surge.sh/documentation/" +
           "software/#mailgun.\n")
     simple_request('gmail_address', 'Gmail address')
     profile['gmail_password'] = getpass()
