@@ -1,6 +1,7 @@
 MyPA (**My Personel Assistant**)
 =============
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/9747fc022d5040429bdd60ce060aa97e)](https://www.codacy.com/app/yoginth/mypa?utm_source=github.com&utm_medium=referral&utm_content=yoginth/mypa&utm_campaign=badger)
 [![Build Status](https://travis-ci.org/yoginth/mypa.svg?branch=master)](https://travis-ci.org/yoginth/mypa)
 
 Client code for the MyPA voice computing platform. MyPA is an open source platform for developing always-on, voice-controlled applications.
