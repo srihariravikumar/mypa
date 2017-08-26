@@ -5,7 +5,7 @@ MyPA (**My Personel Assistant**)
 
 Client code for the MyPA voice computing platform. MyPA is an open source platform for developing always-on, voice-controlled applications.
 
-Learn more at [mypa.yoginth.surge.sh](https://mypa.yoginth.surge.sh/), where we have assembly and installation instructions, as well as extensive documentation. For the relevant disk image, please visit [SourceForge](http://sourceforge.net/projects/yoginth-mypa/).
+Learn more at [mypa.yoginth.surge.sh](https://mypa.yoginth.surge.sh), where we have assembly and installation instructions, as well as extensive documentation. For the relevant disk image, please visit [SourceForge](http://sourceforge.net/projects/yoginth-mypa/).
 
 ## Support
 
