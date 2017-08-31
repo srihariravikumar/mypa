@@ -1,6 +1,6 @@
 MyPA(My Personel Assistant) was originally created by Yoginth in Later 2017.
 
-    Yoginth <yoginth@aol.com>
+    Yoginth <yoginth@hotmail.com>
 
 *Please alphabetize new entries*
 
